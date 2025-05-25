@@ -46,9 +46,9 @@ notes_df <- notes %>%
 #     - high probability: 
 #       - left vertex quad n with right vertex quad n-1 (left-to-right movement)
 #       - top vertex quad n with bottom vertex quad n-1 (top-down movement)
+#       - bottom vertex quad n with top vertex quad n-1 (bottom-up movement)
 #     - intermediate probability: 
 #       - right vertex quad n with left vertex quad n-1 (right-to-left movement)
-#       - bottom vertex quad n with top vertex quad n-1 (bottom-up movement)
 #     - low probability: 
 #       - random vertex quad n with random vertex quad n-1 (random movement)
 # NOTE: should think of how to re-write following code to use recurrence approach (like purrr::accumulate())
